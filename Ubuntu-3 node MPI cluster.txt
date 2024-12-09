@@ -1,7 +1,7 @@
 #Create a 3 Node HPC cluster using OpenMPI
 #1. Install Ubuntu 24.04 on one virtual machine. 
 # Login as user.
-# Install SSH - sudo spt install ssh 
+# Install SSH - sudo apt install ssh 
 # Start and enable ssh service - sudo systemctl start ssh
 # sudo systemctl enable ssh
 # Now shut down the VM. Create 2 clones of this VM. Then run the following script on the master node.
